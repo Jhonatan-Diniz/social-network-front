@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+        <span id='create_post'>
+            <input type="text" placeholder="Create Post" id='input_post'>
+            <button type="button" id='send_btn'>
+              <img id='send_img' src="templates/send-white-icon.png" alt="">
+            </button>
+        </span>
+
+        <span id='menu_sections'>
+          <a href="templates/register_page.html">sign-in</a>
+          <a href="templates/login_page.html">log-in</a>
+        </span>
+      </header>
+      <main>
+          <div id='posts'>
+            <div class="post">
+              <span class="user_data">
+              <span class="nickname">@1</span>
+              <span class="date">2024-12-08T13:45:49.008951+00:00</span>
+              </span>
+              <div class="message">
+                  ola mundo 2
+              </div>
+              <span class="interaction_bar">
+                  <button class="int_btn">comment</button>
+                  <button class="int_btn">like
+                  </button>
+                  <button class="int_btn">share</button>
+               </span>
+         </div>
+          </div>
+
+          <div id='second_bar'>
+            oadad
+          </div>
+      </main>
+      <script type='module' src='scripts/index.js'> </script>
+      <script type='module' src='scripts/post.js'> </script>
+
+  </body>
+</html>
